@@ -1,0 +1,16 @@
+{
+  "ch" : {
+    "namesMonths": ["一月", "二月", "三月ˋ", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"],
+    "namesDaysOfWeek": ["一", "二", "三", "四", "五", "六", "天"],
+    "dateLabel": "選擇日期",
+    "langLabel": "選擇語言",
+    "inputDateLabel": "輸入日期 格式為 年-月-日"
+  },
+  "en" : {
+    "namesMonths" :["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "namesDaysOfWeek" :["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+    "dateLabel": "Select a date",
+    "langLabel": "Select a lang",
+    "inputDateLabel": "Enter the date in Year-Month-Day format"
+  }
+}
