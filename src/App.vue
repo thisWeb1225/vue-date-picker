@@ -7,7 +7,6 @@
         :lang="selectedLang"
         primary-color="orange"
         @set-date="setDate" />
-      <span class="main__label">{{ labelInput }}</span>
       <span class="main__label">{{ labelSelectedLang }}</span>
       <select
         v-model="selectedLang"
@@ -37,7 +36,7 @@ const setDate = (value: any) => {
 
 const appLangs = computed(() => [
   {
-    label: 'Chinese',
+    label: '繁體中文',
     value: 'ch',
   },
   {
@@ -50,12 +49,8 @@ const labelSelectedDate = computed(() => {
   return selectedDate.value ? selectedDate.value : localization[selectedLang.value].dateLabel
 });
 const labelSelectedLang = computed(() => {
-  return localization[selectedLang.value].dateLabel
+  return localization[selectedLang.value].langLabel
 });
-const labelInput = computed(() => {
-  return localization[selectedLang.value].inputDateLabel
-});
-
 
 </script>
 
